@@ -1,0 +1,20 @@
+// Read from environment variables for production, with fallbacks for local development
+export const API_KEY =
+  process.env.LIVEAVATAR_API_KEY || "e6aa1ec7-95e4-4d93-84a1-e0f9d868b662";
+export const API_URL =
+  process.env.LIVEAVATAR_API_URL || "https://api.liveavatar.com";
+export const AVATAR_ID =
+  process.env.LIVEAVATAR_AVATAR_ID || "0930fd59-c8ad-434d-ad53-b391a1768720";
+
+// FULL MODE Customizations
+export const VOICE_ID =
+  process.env.LIVEAVATAR_VOICE_ID || "c2527536-6d1f-4412-a643-53a3497dada9";
+export const CONTEXT_ID =
+  process.env.LIVEAVATAR_CONTEXT_ID || "f3af6741-6149-496f-998e-d82b0f5aea32";
+export const LANGUAGE = process.env.LIVEAVATAR_LANGUAGE || "en";
+
+// CUSTOM MODE Customizations
+export const ELEVENLABS_API_KEY =
+  process.env.ELEVENLABS_API_KEY || "YOUR_ELEVENLABS_API_KEY";
+export const OPENAI_API_KEY =
+  process.env.OPENAI_API_KEY || "YOUR_OPENAI_API_KEY";
