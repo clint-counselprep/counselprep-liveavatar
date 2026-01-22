@@ -39,9 +39,18 @@ importers:
       husky:
         specifier: ^9.1.7
         version: 9.1.7
+      next:
+        specifier: 15.5.7
+        version: 15.5.7(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       prettier:
         specifier: ^3.6.2
         version: 3.6.2
+      react:
+        specifier: 19.1.0
+        version: 19.1.0
+      react-dom:
+        specifier: 19.1.0
+        version: 19.1.0(react@19.1.0)
       turbo:
         specifier: ^2.5.5
         version: 2.5.5
